@@ -5,9 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-    overflow-x: hidden;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -472,6 +470,9 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width:1300px){
+    body{
+        overflow-x: hidden;
+    }
     .navBar .max-width{
         margin-left: 0px;
     }
