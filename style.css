@@ -98,8 +98,6 @@ html{
     grid-template-rows: 1fr;
     /* background-size: cover;
     background-repeat: no-repeat; */
-    height: 100vh;
-    min-height: 500px;
     color: var(--secondary-color);
     font-family: 'Poppins';
 }
