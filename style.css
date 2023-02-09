@@ -275,23 +275,13 @@ section .title::after{
     width: 70px;
     height: 70px;
     margin: 15px 0;
+    transition:  all 0.3s ease;
+    
 }
-.skills .skills-content .card:hover{
-    background: var(--third-color);
-}
-.skills .skills-content .card:hover i,
-.skills .skills-content .card:hover p,
-.skills .skills-content .card:hover .text {
-    color: var(--primary-color);
-    transition:  color 0.3s ease;
+.skills .skills-content .image-container img:hover{
+    transform: scale(1.1);
 }
 
-.skills .skills-content .card .box{
-    transition:  all 0.3s ease;
-}
-.skills .skills-content .card .box:hover{
-    transform: scale(1.05);
-}
 .skills .skills-content .card i{
     font-size: 30px;
     color: var(--third-color);
