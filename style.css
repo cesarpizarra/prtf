@@ -90,7 +90,6 @@ html{
 .home{
     background:var(--primary-color);
     padding-top: 60px;
-    
 }
 .home .home-content{
     margin-top: 35px;
@@ -171,6 +170,7 @@ section,
 footer{
     padding: 100px 0;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 section .title{
     position: relative;
@@ -266,7 +266,6 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
-    cursor: pointer;
     transition:  all 0.3s ease;
 }
 .skills .skills-content .image-container img{
@@ -274,6 +273,7 @@ section .title::after{
     height: 70px;
     margin: 15px 0;
     transition:  all 0.3s ease;
+    cursor: pointer;
     
 }
 .skills .skills-content .image-container img:hover{
@@ -470,9 +470,6 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width:1300px){
-    body{
-        overflow-x: hidden;
-    }
     .navBar .max-width{
         margin-left: 0px;
     }
