@@ -11,7 +11,13 @@
     
     <title>Cesar Pizarra | Personal Portfolio</title>
 </head>
-<body>
+<body class="window-open">
+    <div class="window-loader">
+        <div class="window-loader__dot"></div>
+        <div class="window-loader__dot"></div>
+        <div class="window-loader__dot"></div>
+        <div class="window-loader__dot"></div>
+    </div>
     <nav class="navBar">
         <div class="max-width">
             <div class="logo"><a href="#">Ce<span>Zaru</span></a></div>
@@ -76,7 +82,7 @@
                 </div>
                 <div class="column right" data-aos="fade-left">
                     <div class="text">I'm Cesar <span>Frontend Developer.</span></div>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores omnis, voluptates quas mollitia ad aperiam optio! Esse rerum quam dignissimos, porro quibusdam harum fuga veniam illum aut autem pariatur quidem nam praesentium molestias consequatur facere minus! Aut, quod mollitia iusto ut temporibus inventore repellat labore totam obcaecati atque explicabo incidunt ad magni earum quam itaque odit possimus vitae cupiditate? Tempora?</p>
+                     <p>an aspiring frontend developer with a passion for building visually appealing and user-friendly websites. While I'm new to the industry, I'm excited to learn as much as I can and start working on my own projects.</p>
                 </div>
             </div>
         </div>
@@ -106,7 +112,7 @@
                         <div class="text">Editor</div>
                         <p>More than 2 years experience</p>
                         <div class="image-container">
-                            <img src="https://pnggrid.com/wp-content/uploads/2021/11/CapCut-app-Logo-Transparent.png" alt="capcut">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8AAADo6OgJCQmsrKy7u7vv7+/5+fn09PTX19fy8vKZmZnf398uLi4aGhr29vagoKCOjo5KSkp7e3vDw8MnJydpaWlycnLOzs5eXl5ZWVlPT0+0tLSGhoampqZUVFQfHx8QEBBBQUE3NzfJycmTk5MyMjJ0dHSKiop/f3+Ku9BMAAAE1UlEQVR4nO2c6ZaiMBBGm0VRWdt9oVFQW/v9X3DEMzgSoYKahNDz3b/2obgnSyeVCh8fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFDKyBTIoG0bln5vMZ6lljj87deybak7vElgSMB3dWnJLxl6V1K7bbccbyZN8MJmRIS2IxWCB5l+OV5NYMdODUNBN57KFqxRdOzr0O9LFxzKFzSCR40w+Ts0pBsOfAWGxpaNmtzCSjecqBA0jOQ+ZhjdTW2yDVX00Zy7fupE6f0vsg3nigwNt4joMj9INjRVCRrfYR7PYf2kGybKDI3LGjV89JNuyHTSdJHYgkjY/n+uaD/5hk55uTY2RT58WH64X7M0lGsYlmJZ1ALyBZrN03INB6VYn6Ifv9LNsCf68U3msZ0jOmqJUSnYQfTjbb7gVujQf6RfijYV/Xiu4XooOiRL2TAW/XhOL11J92MNjYXQkOY5pfzmCvweDEWGNenUjxq/CkNRoc0f0m9Rl9cQToWhiOFv0pvOuTK/GsN3HTXyqzW8/Jt62dE8aeRHGL7ajhw/deOvIKReZ/X0qYNH98+Tcr8L01Sco0e336QNvwt9l3RcN16regst/XJG1Vvvgk0jR4/OaP1IXl/zqEkvFIy5fZXjN2nZL4fjmJGOvPaTfzDRCIcej1ltX/XojbwufjlhRJ4Cjysdh3qPP5bScUKF48MOmfazvjTzy7kdeTVx5PidNfTLCZMd9d7ZLVu1pMffp0bjj8VJLOrV91fH4Zr2E5x5FQ6dX/F7yy3tp0uFCYVN9lWSo9wEqDjslypQ0mMX2q/A/n7WLzjqPv4YHHv/jN/O1Xj+rMOJGzsGbsfa70bcrK9GYdsv+gYxf86JujJ/1sGpuRm3/X7vMs14TbjTosLyVfh+OYHd1X46HTfxy5klXZxreo39cvzOOfYa9c9SO3ZqTu09tZ4pCDrjGL9cdWopKdx+l5jcO83iKd2+ru7tSK9h/Gs9A+d/iKvxnOPQ/XN/q9eYbqi/s3Rdh3P2S1mpHuVA5moCHfdSDr3nzR6qwuh8W3DUzZHOle4rK6aWZDvqldOg86TVfjm8vKIujpwcKVnxxnPUYF516Pxoxq3o4zieW55XwyR9zy9nqG+OfxCR42/TuCKTc87W2jnNgfTbPlVxquVZm5NSfk/XDA/peow2HAf1r9OsBoNFu5qM2poofv1FHby6DMVzTk1d2+atW+amTrUnlYbv+eVw2vGk0LHCcC3kKwHa1IA9GD5fj1gHp05RlSNjKM4vh+Oopta0bCg8Nx+Rikoc274zI78muv17TyvJ86rku2ucXnplJjf1WDY8in68BvcPy6u2VPBu3GsiqPYe8EZoNK+cmZy1cg+Yvcsd/MQ9QcTsquarlbvciu/jDz7VG6r7poJ/HeQVjr/muxjFRfGQdfwt3zax/v1nHx2VGqr6Po17H7N/vCual244kvqdrwK2qKjv3pJ88tMaSwWC1uPqc1RcflCQuOnJN6y8yxhGliJD+Yp1lzWdSJHhxzCV6ZdRDpFL/CgQR+KMqkiBi7cgTxBfZXbW6KTbjOfZLBD3+dLAH5+mGpyOlun/6m/QAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8pfwDYR0nGjPqnwAAAAABJRU5ErkJggg==" alt="capcut">
                             <img src="https://i.pinimg.com/originals/d0/6a/74/d06a74823aa8f22f823a5701e90157e6.png" alt="lightroom">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN2YyjKPKXt8sKoT1w8xUjwHCHGX0N1jKEG_pJ8GLtEaLMWNp9Q9GXgk6imDaoDjzEolo&usqp=CAU" alt="picsart">
                         </div>
@@ -185,7 +191,8 @@
             <div class="contact-content"> 
                 <div class="column left" data-aos="fade-up">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, qui! Dolorem quasi architecto doloribus consequuntur fugit veniam assumenda sunt. Ipsa.</p>
+                    <p>Thanks for visiting my website! If you're interested in working together on a website project, I'd be happy to hear from you. 
+                        The best way to get in touch with me is to message me via email.</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -243,6 +250,7 @@
         <span>Created By <a href="#">Cesar Gali Pizarra</a> <span class="far fa-copy-right"></span>2023 All rights reserved.</span>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/c5a429136c.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>

@@ -9,6 +9,8 @@
 html{
     scroll-behavior: smooth;
 }
+
+
 :root{
     --primary-color:#222;
     --secondary-color:#fff;
@@ -270,7 +272,7 @@ section .title::after{
 .skills .skills-content .image-container img{
     width: 70px;
     height: 70px;
-    margin: 15px 0;
+    margin: 15px 5px;
     transition:  all 0.3s ease;
     cursor: pointer;
     
@@ -299,12 +301,10 @@ section .title::after{
     background: var(--card-bg);
     border-radius: 6px;
     padding: 25px 35px;
-    text-align: center;
+    text-align: justify;
     transition: all 0.3s ease;
 }
-.photos .carousel .card:hover{
-    background: var(--third-color);
-}
+
 .photos .carousel .card .box{
     display: flex;
     justify-content: center;
@@ -323,13 +323,11 @@ section .title::after{
     border: 3px solid var(--third-color);
     transition: all 0.3s ease;
 }
-.photos .carousel .card :hover img{
-    border-color: var(--secondary-color);
-}
+
 .photos .carousel .card{
     animation: slide 10s infinite linear;
 }
-@keyframes slide {
+/* @keyframes slide {
     0%{transform: translateX(0);}
     25%{transform: translateX(0);}
     30%{transform: translateX(-100%);}
@@ -338,7 +336,7 @@ section .title::after{
     75%{transform: translateX(-200%);}
     80%{transform: translateX(-300%);}
     100%{transform: translateX(-300%);}
-}
+} */
 /* .owl-dots{
     text-align: center;
     margin-top: 20px;
